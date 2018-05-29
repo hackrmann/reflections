@@ -1,0 +1,47 @@
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one, like code for VS code)
+pwd                           # print working directory - shows what directory you are in
+ls                            # list the files in this directory
+diff			              # will only show you that the two files are different
+scp                           # stands for secure copy from one pc to another (Or even the same PC)
+
+Cloning a Repository
+To clone a repository, run git clone followed by a space and the repository URL. Ex: git clone http://....../
+
+Asteroids URL
+Use the following url to clone the Asteroids repository: https://github.com/udacity/asteroids.git
+
+Exiting git log
+To stop viewing git log output, press q (which stands for quit).
+
+Getting Colored Output
+To get colored diff output, run git config --global color.ui auto
+
+Copying and Pasting from the Command Line
+To complete this quiz, you'll want to copy and paste some commit ids.
+
+Windows
+To copy and paste within Git Bash, follow the instructions on this page.
+
+Mac
+To copy and paste within the terminal on Mac, use Cmd+C and Cmd+V
+
+Ubuntu
+To copy and paste within the terminal on Ubuntu, use Ctrl+Shift+C and Ctrl+Shift+V.
+
+Using git log and git diff
+As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs. Running git diff followed by two commit IDs will compare the two versions of the code in those commits. If you need a refresher, you may want to rewatch this video.
+
+Entering commit IDs
+If it is easier, you may enter the first four or more characters of the commit ID rather than pasting the entire ID.
+
+Very close! The only thing you missed is that it actually is possible to copy a directory from 
+one computer to another using the command scp.  That wasn't covered in the previous lesson, though, so you weren't expected to know it.
+
+
+Commands_________________________________________
+git config --global core.editor "'C:/Program\ Files/Microsoft\ VS\ Code/Code.exe' -n -w"
