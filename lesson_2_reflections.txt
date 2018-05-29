@@ -4,4 +4,3 @@ We need it to begin work that we have
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is the intermediate place between working directory and a repo. It allows us to organize our files and a place where we can organize our ideas before finalizing our end product.
-Hey
