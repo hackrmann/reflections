@@ -4,3 +4,15 @@ We need it to begin work that we have
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is the intermediate place between working directory and a repo. It allows us to organize our files and a place where we can organize our ideas before finalizing our end product.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By using git diff without arguments to compare the contents in the working directory and the contents in the staging area. Just use "git diff"
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you are creating multiple versions of the same software for different purposes
+For beta-testing
+To test new features to use the same product for different purposes
+To show off to friends and family and collegues
+
+How do the diagrams help you visualize the branch structure?
+By creating a mind-map as such with the complete heirarchy of everything in the git structure, we can revert to any existing version of the software written with ease and no fear of losing data

@@ -42,6 +42,14 @@ If it is easier, you may enter the first four or more characters of the commit I
 Very close! The only thing you missed is that it actually is possible to copy a directory from 
 one computer to another using the command scp.  That wasn't covered in the previous lesson, though, so you weren't expected to know it.
 
+Viewing the commit history
+The full command Caroline types to see the visual representation of the commit history is git log --graph --oneline master coins.
+
+Checking out the coins branch
+Note that you'll need to check out the coins branch using the command git checkout coins before you can view the coins branch using git log.
+
+Reset any commands in staging area or working directory (Commits in repositry are not modified by this)
+git reset --hard
 
 Commands_________________________________________
 git config --global core.editor "'C:/Program\ Files/Microsoft\ VS\ Code/Code.exe' -n -w"
