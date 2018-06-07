@@ -54,5 +54,18 @@ git reset --hard
 Delete a branch (It only deletes the branch name, the commits are still in history. If a commit can't be reached anymore, the command " git gc " will take care of that, as it is the git garbage collector)
 git branch -d branch_name
 
+Caching your GitHub password in Git
+MAC WINDOWS LINUX ALL
+If you're cloning GitHub repositories using HTTPS, you can use a credential helper to tell Git to remember your GitHub username and password every time it talks to GitHub.
+
+If you clone GitHub repositories using SSH, then you authenticate using SSH keys instead of a username and password. For help setting up an SSH connection, see Generating an SSH Key.
+
+Tip: You need Git 1.7.10 or newer to use the credential helper.
+
+You can also install a native Git shell, such as Git for Windows. With Git for Windows, running the following in the command line will store your credentials:
+
+git config --global credential.helper wincred
+                    --from https://help.github.com/articles/caching-your-github-password-in-git/
+
 Commands_________________________________________
 git config --global core.editor "'C:/Program\ Files/Microsoft\ VS\ Code/Code.exe' -n -w"
