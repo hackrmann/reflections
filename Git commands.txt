@@ -51,5 +51,8 @@ Note that you'll need to check out the coins branch using the command git checko
 Reset any commands in staging area or working directory (Commits in repositry are not modified by this)
 git reset --hard
 
+Delete a branch (It only deletes the branch name, the commits are still in history. If a commit can't be reached anymore, the command " git gc " will take care of that, as it is the git garbage collector)
+git branch -d branch_name
+
 Commands_________________________________________
 git config --global core.editor "'C:/Program\ Files/Microsoft\ VS\ Code/Code.exe' -n -w"

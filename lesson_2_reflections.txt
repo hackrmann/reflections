@@ -16,3 +16,6 @@ To show off to friends and family and collegues
 
 How do the diagrams help you visualize the branch structure?
 By creating a mind-map as such with the complete heirarchy of everything in the git structure, we can revert to any existing version of the software written with ease and no fear of losing data
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It saves tiime and effort, really efficient but it might merge 2 wrong changes logically
